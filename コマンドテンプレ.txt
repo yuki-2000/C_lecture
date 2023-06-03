@@ -1,0 +1,5 @@
+gcc exercise2-1.c -o exercise2-1.exe
+gcc test03.c -o test03.exe
+
+
+
