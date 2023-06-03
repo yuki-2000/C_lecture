@@ -1,0 +1,25 @@
+
+#include<stdio.h>
+
+void adjust_point(int *n)
+{
+	if (*n < 0)
+		*n = 0;
+	else if (*n > 100)
+		*n = 100;
+}
+
+int main(void)
+{
+	int n;
+	
+	printf("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢:");
+	scanf("%d", &n);
+	
+	adjust_point(&n);
+	printf("®”‚Í%d‚ÉXV‚³‚ê‚Ü‚µ‚½B", n);
+		
+	
+	
+	return 0;
+}

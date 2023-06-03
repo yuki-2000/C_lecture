@@ -1,0 +1,55 @@
+
+#include<stdio.h>
+
+
+int max2(int a, int b)
+{
+	return (a > b) ? a : b;
+}
+
+int max4(int a, int b, int c, int d)
+{
+	return max2(max2(a,b), max2(c,d));
+}
+
+int  sumup(int n)
+{
+	int sum = 0;
+	int i;
+	for(i = 1; i <= n; i++)
+		sum += i;
+	return sum;
+}
+
+int scan_print(void)
+{
+	int tmp;
+	
+	do{
+	
+	printf("³‚Ì®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢:");
+	scanf("%d", &tmp);
+	if(tmp <= 0)
+		puts("³‚Å‚È‚¢”‚ğ“ü—Í‚µ‚È‚¢‚Å‚­‚¾‚³‚¢B");	
+	}while(tmp <= 0);
+	
+	return tmp;
+
+int main(void)
+{
+	int
+	double
+	
+	puts("");
+	printf("");
+	scanf("");
+	if ()
+		puts();
+	else if ()
+		
+	else
+		
+	
+	
+	return 0;
+}
